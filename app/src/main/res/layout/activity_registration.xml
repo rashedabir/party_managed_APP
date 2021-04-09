@@ -1,65 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".Registration">
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registration"
-        android:textSize="35dp"
-        android:textColor="#000"/>
-
-    <EditText
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="User Name"
-        android:textSize="20dp"
-        android:textColor="#000"
-        android:layout_marginTop="50dp"
-        android:id="@+id/uname"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".Registration">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:textSize="20dp"
-        android:textColor="#000"
-        android:inputType="textPassword"
-        android:layout_marginTop="10dp"
-        android:id="@+id/upass"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Retype Password"
-        android:textSize="20dp"
-        android:textColor="#000"
-        android:inputType="textPassword"
-        android:layout_marginTop="10dp"
-        android:id="@+id/uconfirmpass"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textSize="35dp"
+            android:textColor="#000"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:layout_marginTop="10dp"
-        android:onClick="register"
-        android:background="@color/colorAccent"
-        android:textColor="#fff"
-        android:padding="10dp"
-        android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginTop="50dp"
+            android:id="@+id/uname"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login Here..."
-        android:textSize="20dp"
-        android:onClick="loginPage"
-        android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:id="@+id/upass"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Retype Password"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:id="@+id/uconfirmpass"/>
 
-</LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="10dp"
+            android:onClick="register"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Here..."
+            android:textSize="20dp"
+            android:onClick="loginPage"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
