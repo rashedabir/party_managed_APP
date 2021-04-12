@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Registration"
+            android:layout_margin="20dp"
             android:textSize="35dp"
             android:textColor="#000"/>
 
@@ -26,7 +27,7 @@
             android:hint="User Name"
             android:textSize="20dp"
             android:textColor="#000"
-            android:layout_marginTop="50dp"
+            android:layout_margin="15dp"
             android:id="@+id/uname"/>
 
         <EditText
@@ -36,7 +37,7 @@
             android:textSize="20dp"
             android:textColor="#000"
             android:inputType="textPassword"
-            android:layout_marginTop="10dp"
+            android:layout_margin="15dp"
             android:id="@+id/upass"/>
         <EditText
             android:layout_width="match_parent"
@@ -45,7 +46,7 @@
             android:textSize="20dp"
             android:textColor="#000"
             android:inputType="textPassword"
-            android:layout_marginTop="10dp"
+            android:layout_margin="15dp"
             android:id="@+id/uconfirmpass"/>
 
         <Button
