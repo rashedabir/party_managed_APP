@@ -13,11 +13,11 @@
         <activity android:name=".MainActivity2" />
         <activity
             android:name=".UpdateActivity"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity2" />
         <activity
             android:name=".AddActivity"
             android:label="Add Guest"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity2" />
         <activity
             android:name=".MainActivity"
             android:label="PMS">

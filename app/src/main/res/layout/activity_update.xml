@@ -17,36 +17,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
-            android:ems="10"
             android:hint="Guest Name"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:inputType="text"/>
 
         <EditText
             android:id="@+id/phone_input2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:ems="10"
             android:hint="Mobile No."
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_input2" />
+            android:inputType="text"/>
 
         <EditText
             android:id="@+id/type_input2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:ems="10"
             android:hint="Type"
-            android:inputType="text"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/author_input2" />
+            android:inputType="text"/>
 
         <Button
             android:id="@+id/update_button"
@@ -55,10 +43,7 @@
             android:layout_marginTop="40dp"
             android:text="Update"
             android:textSize="20sp"
-            android:textAllCaps="false"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pages_input2" />
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/delete_button"
@@ -68,10 +53,7 @@
             android:text="Delete"
             android:textAllCaps="false"
             android:textColor="@color/red"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/update_button" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 </ScrollView>
